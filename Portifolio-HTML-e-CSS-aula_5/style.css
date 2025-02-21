@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz com que a altura da página seja 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+strong{
+    color: #22D4FD;
+}
+h1{
+    font-weight: bold;
+}
+p{
+    border: 5px solid #22D4FD
+}
+span{
+    color: #22D4FD;
+    border: 1PX SOLID #22D4FD;
+    PADDING:10PX;
+}
+img{
+    width: 300px; /* Largura da imagem */
+    height: auto; /* Altura proporcional */
+    border: 6px solid #22D4FD; /* Borda ao redor da imagem */
+}
+.apresentacao{
+    display: flex;
+}
